@@ -11,7 +11,7 @@ function About() {
         }else{
             setMesssage("no number")
         }
-    }, [])
+    }, [number])
     return <div className="bg-yellow-300">
         <p>This is the about page</p>
         <p>{message}</p>
